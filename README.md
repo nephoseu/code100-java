@@ -1,6 +1,6 @@
-# Code100 Competition - PHP Sample
+# Code100 Competition - Java Sample
 
-This codebase contains everything you need to complete coding challenges of the Code100 competition in PHP.
+This codebase contains everything you need to complete coding challenges of the Code100 competition in Java.
 The code example of communicating with the API is already present in the `App.java` file located under `src/main/java/com/mycompany/app`.
 
 If you need additional information regarding the API you may find it in the rest of this document.
@@ -60,6 +60,7 @@ Authorization: Bearer <JWT token>
 ```
 {
   "name": <name of the puzzle>,
+  "description": <description of the puzzle>,
   "input": <coding challenge>
 }
 ```
