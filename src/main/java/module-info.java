@@ -6,4 +6,6 @@
 module mymodule {
     requires java.base;
     requires java.xml;
+    requires java.net.http;
+    requires com.fasterxml.jackson.databind;
 }
